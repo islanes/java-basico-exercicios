@@ -34,7 +34,7 @@ public class exer05 {
 
                 mesValido = false;
                 while (!mesValido) {
-                    
+
                     System.out.println("Entre com o mes: ");
                     mes = scan.nextInt();
                     if (mes > 0 && mes <= 12) {
@@ -75,7 +75,7 @@ public class exer05 {
                 //se trata de um vetor nele começa com zero logo devemos arrumar para começar com 1
                 mes--;
                 dia--;//acessando o dia 
-                hora --;
+                hora--;
                 System.out.println("Digite o compromisso: ");
                 compromissos[mes][dia][hora] = scan.next();
                 ///fim de adicionar
@@ -127,7 +127,7 @@ public class exer05 {
                 //imprimindo um compromisso 
                 mes--;
                 dia--;
-                hora --;
+                hora--;
                 System.out.println("O compromisso agendado é ");
                 System.out.println(compromissos[mes][dia][hora] + "\n");
 

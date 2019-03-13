@@ -112,7 +112,7 @@ public class exer06 {
                 ganhou = true;
                 System.out.println("Parabens o jogador 2 ganhou!!!!!");
 
-            }else if(jogada >9){
+            } else if (jogada > 9) {
                 ganhou = true;
                 System.out.println("Ninguem ganhou...");
             }
