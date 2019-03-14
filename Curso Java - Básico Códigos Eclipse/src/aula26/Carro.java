@@ -1,8 +1,5 @@
 
 package aula26;
-
-import aula25.*;
-
 /**
  *
  * @author Islane dos S. Silva
@@ -10,7 +7,7 @@ import aula25.*;
 
 public class Carro {
 
-    //eXemplo com metodo com retorno
+    //exemplo com metodo com retorno
 	String marca;
 	String modelo;
 	int numPassageiros;
