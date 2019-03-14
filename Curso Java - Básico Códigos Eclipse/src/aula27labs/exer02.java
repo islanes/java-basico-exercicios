@@ -4,7 +4,7 @@ package aula27labs;
  *
  * @author Islane dos S. Silva
  */
-public class eXer02 {
+public class exer02 {
 
     public static void main(String[] args) {
         //eXemplo conta corrente 
