@@ -9,14 +9,14 @@ package aula27;
 
 public class Carro {
 
-    //eXemplo com metodo com retorno
+    //exemplo com metodo com retorno
 	String marca;
 	String modelo;
 	int numPassageiros;
 	double capCombustivel;
 	double consumoCombustivel;
         
-        void eXibirAutonomia(){
+        void exibirAutonomia(){
             System.out.println("A autonomia do carro é "+capCombustivel * consumoCombustivel+" km");
         }
         
