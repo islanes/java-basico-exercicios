@@ -14,6 +14,10 @@ public class teste {
         
         Aluno aluno = new Aluno();
         Professor professor = new Professor();
+        
+        //Exemplo constante;        
+        System.out.println(""+Constantes.URL_BLOG);
+        //Constantes.URL_BLOG = "new";//não pode modificar, imutavel
 
     }
 }
